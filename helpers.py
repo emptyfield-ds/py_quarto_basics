@@ -29,4 +29,3 @@ def copy_qmd_template(template):
     
     shutil.copy(template_path, target_path)
     print(f"Copying {template_path} to {target_path}")
-
